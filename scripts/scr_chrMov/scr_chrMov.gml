@@ -89,16 +89,16 @@ if ((key_left > 0 || key_right > 0) && (key_up > 0 || key_down > 0) &&
 }
 else {
 	//	straight Check
-	if (key_left == key_max) {
+	if (key_left == key_max && !place_meeting(x - argument4, y, Block)) {
 		chr_dir = 180;
 	}
-	if (key_right == key_max) {
+	if (key_right == key_max && !place_meeting(x + argument4, y, Block)) {
 		chr_dir = 0;
 	}
-	if (key_up == key_max) {
+	if (key_up == key_max && !place_meeting(x, y - argument4, Block)) {
 		chr_dir = 90;
 	}
-	if (key_down == key_max) {
+	if (key_down == key_max && !place_meeting(x, y + argument4, Block)) {
 		chr_dir = 270;
 	}
 	
@@ -125,3 +125,6 @@ else {
 		y += chr_ydir;
 	}
 }
+
+if (place_meeting(x, y, Block))
+	show_debug_message("Col!");
