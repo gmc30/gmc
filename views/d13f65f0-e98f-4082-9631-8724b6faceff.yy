@@ -9,7 +9,8 @@
         "2dcee081-1d91-428e-acf0-c166af2f9d53",
         "103ace14-c81b-464f-9f8b-cf32d194866c",
         "cf874be9-39d3-4282-9aa2-c25a97da9af4",
-        "caef644c-cabe-4c65-a30e-a448e2ffd059"
+        "caef644c-cabe-4c65-a30e-a448e2ffd059",
+        "6007e82b-61d6-48dd-9a31-f9caf05b8121"
     ],
     "filterType": "GMSprite",
     "folderName": "Gun",
