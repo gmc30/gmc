@@ -1,15 +1,22 @@
 ///@description Attack
 ///@param key_attack
+///@param many
+///@param bullet
+///@param recoil
+///@param damamge
 ///@param delay(s)
 
-if (argument0 && chr_isAtkD == false) {
-	//	Attack
-	var _bullet = instance_create_layer(x + lengthdir_x(86, chr_dir), y + lengthdir_y(86, chr_dir), "layer_bullet", obj_bullet1);
-	_bullet.image_angle = chr_dir;
-	_bullet.direction = _bullet.image_angle;
-	_bullet.speed = 12;
+var dist = 80; 
+if (argument0 && chr_isAtkD == false && collision_line(x, y, lengthdir_x(dist, chr_dirD), lengthdir_y(dist, chr_dirD), Block, false, false) != noone) {
+	repeat(argument1) {
+		//	Attack
+		var _bullet = instance_create_layer(x + lengthdir_x(dist, chr_dirD), y + lengthdir_y(dist, chr_dirD), "layer_bullet", argument2);
+		_bullet.image_angle = chr_dirD + random_range(-argument3, argument3);
+		_bullet.direction = _bullet.image_angle;
+		_bullet.damage = argument4;
 	
-	//	Delay
-	chr_isAtkD = true;
-	alarm[0] = argument1 * room_speed;
+		//	Delay
+		chr_isAtkD = true;
+		alarm[0] = argument5 * room_speed;
+	}
 }

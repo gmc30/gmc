@@ -19,5 +19,5 @@ chr_hp = chr_hpMax;
 chr_ishurtD = false;
 
 //	Weapon Unlock
-chr_unlock = 0;
+chr_unlock = 6;
 chr_money = 0;
