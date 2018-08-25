@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "3d804d15-e9d8-45ef-94e0-83944ac68928",
+            "Value": {
+                "id": "9efe7149-dd7e-439a-9d62-4c4964c2e2df",
+                "resourcePath": "sprites\\spr_weapon8\\spr_weapon8.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3de57911-983b-4e03-a7b3-cc48dd353311",
             "Value": {
                 "id": "3cec9409-bbb0-4f86-a36f-c915236642fd",

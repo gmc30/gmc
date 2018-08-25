@@ -12,6 +12,7 @@ global.point = 0;
 //기관총
 //스나이퍼
 //미니건
+//알라봉
 global.wp_dmg[0] = 2;
 global.wp_dmg[1] = 1;
 global.wp_dmg[2] = 2;
@@ -19,6 +20,7 @@ global.wp_dmg[3] = 3;
 global.wp_dmg[4] = 2;
 global.wp_dmg[5] = 100;
 global.wp_dmg[6] = 1;
+global.wp_dmg[6] = 100;
 
 global.wp_atkD[0] = 0.5;
 global.wp_atkD[1] = 0.05;
@@ -27,6 +29,7 @@ global.wp_atkD[3] = 0.1;
 global.wp_atkD[4] = 0.02;
 global.wp_atkD[5] = 2;
 global.wp_atkD[6] = 0.01;
+global.wp_atkD[6] = 2;
 
 global.wp_spr[0] = spr_weapon1;
 global.wp_spr[1] = spr_weapon2;
@@ -35,6 +38,7 @@ global.wp_spr[3] = spr_weapon4;
 global.wp_spr[4] = spr_weapon5;
 global.wp_spr[5] = spr_weapon6;
 global.wp_spr[6] = spr_weapon7;
+global.wp_spr[7] = spr_weapon8;
 
 
 draw_set_font(ft_main);

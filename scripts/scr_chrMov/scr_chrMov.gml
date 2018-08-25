@@ -125,6 +125,3 @@ else {
 		y += chr_ydir;
 	}
 }
-
-if (place_meeting(x, y, Block))
-	show_debug_message("Col!");

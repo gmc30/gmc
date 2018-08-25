@@ -7,6 +7,7 @@ key_down = 0;
 
 //	Direction
 chr_dir = 0;
+chr_dirD = 0;
 
 //	Attack
 chr_weapon = 0;
