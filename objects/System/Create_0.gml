@@ -5,6 +5,7 @@ global.game_height = 1024;
 
 global.point = 0;
 
+
 //딱총
 //기관단총
 //샷건
@@ -24,7 +25,7 @@ global.wp_dmg[6] = 1;
 
 global.wp_atkD[0] = 0.5;
 global.wp_atkD[1] = 0.12;
-global.wp_atkD[2] = 1;
+global.wp_atkD[2] = 1.5;
 global.wp_atkD[3] = 0.2;
 global.wp_atkD[4] = 0.1;
 global.wp_atkD[5] = 1.5;
@@ -32,7 +33,7 @@ global.wp_atkD[6] = 0.05;
 
 global.wp_many[0] = 1;
 global.wp_many[1] = 1;
-global.wp_many[2] = 8;
+global.wp_many[2] = 5;
 global.wp_many[3] = 1;
 global.wp_many[4] = 2;
 global.wp_many[5] = 1;

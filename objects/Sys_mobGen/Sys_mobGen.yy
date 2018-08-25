@@ -1,23 +1,33 @@
 {
-    "id": "f3ffdc26-14ab-44b6-8874-eeeed8edde1f",
+    "id": "11642036-a4df-48e4-b1d7-4814455bbd2d",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "Zombie",
+    "name": "Sys_mobGen",
     "eventList": [
         {
-            "id": "7a590dbd-f40c-4d54-9f35-091a6ed07a44",
+            "id": "3b930349-12e6-496c-8bed-409d9fb0c03b",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "f3ffdc26-14ab-44b6-8874-eeeed8edde1f"
+            "eventtype": 0,
+            "m_owner": "11642036-a4df-48e4-b1d7-4814455bbd2d"
+        },
+        {
+            "id": "4d76ab1f-5179-4892-852d-d4c69deb199e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "11642036-a4df-48e4-b1d7-4814455bbd2d"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "59e6591a-3157-4bcd-a11a-1a1d507b4558",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

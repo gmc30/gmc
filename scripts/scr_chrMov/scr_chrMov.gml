@@ -74,6 +74,9 @@ key_max = max(key_left, key_right, key_up, key_down, 1);
 if ((key_left > 0 || key_right > 0) && (key_up > 0 || key_down > 0) && 
         !place_meeting(x - argument4, y, Block) && !place_meeting(x + argument4, y, Block) && !place_meeting(x, y - argument4, Block) && !place_meeting(x, y + argument4, Block))
 {
+	//	Cross Speed
+    chr_speed = (argument4 / sqrt(2));
+	
 	//	Cross Check
 	if (key_left > key_right) {
 		if (key_up > key_down)				{chr_dir = 135;}
@@ -83,27 +86,24 @@ if ((key_left > 0 || key_right > 0) && (key_up > 0 || key_down > 0) &&
 		if (key_up > key_down)				{chr_dir = 45;}
 		if (key_down > key_up)				{chr_dir = 315;}
 	}
-											
-    //	Cross Speed
-    chr_speed = (argument4 / sqrt(2));
 }
 else {
+	//	Straight Speed
+    chr_speed = argument4;
+	
 	//	straight Check
-	if (key_left == key_max && !place_meeting(x - argument4, y, Block)) {
+	if (key_left == key_max && !place_meeting(x - 1, y, Block)) {
 		chr_dir = 180;
 	}
-	if (key_right == key_max && !place_meeting(x + argument4, y, Block)) {
+	if (key_right == key_max && !place_meeting(x + 1, y, Block)) {
 		chr_dir = 0;
 	}
-	if (key_up == key_max && !place_meeting(x, y - argument4, Block)) {
+	if (key_up == key_max && !place_meeting(x, y - 1, Block)) {
 		chr_dir = 90;
 	}
-	if (key_down == key_max && !place_meeting(x, y + argument4, Block)) {
+	if (key_down == key_max && !place_meeting(x, y + 1, Block)) {
 		chr_dir = 270;
 	}
-	
-    //	Straight Speed
-    chr_speed = argument4;
 }
 
 // Horizontal

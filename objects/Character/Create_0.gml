@@ -16,7 +16,8 @@ chr_isAtkD = false;
 //	HP
 chr_hpMax = 20;
 chr_hp = chr_hpMax;
-chr_ishurtD = false;
+chr_isHurtD = false;
+chr_isDie = false;
 
 //	Weapon Unlock
 chr_unlock = 6;
