@@ -39,14 +39,6 @@
             }
         },
         {
-            "Key": "08a8aaea-20ee-461f-bfda-6c6d190a46a8",
-            "Value": {
-                "id": "43f0df98-2177-4789-9a2b-0bf220277743",
-                "resourcePath": "objects\\obj_zombie2\\obj_zombie2.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "0a11c507-f7e7-494f-b085-141ae0af785c",
             "Value": {
                 "id": "3e2335a4-3850-429a-8b81-a3f9c32222a9",
@@ -191,14 +183,6 @@
             }
         },
         {
-            "Key": "67e2cce5-574d-4356-97f6-eb33cee8e468",
-            "Value": {
-                "id": "d48eb055-9bb1-4769-9031-038ee4d6b952",
-                "resourcePath": "objects\\obj_zombie1\\obj_zombie1.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "6fb6dbdc-5e79-4820-8ea7-18af98ec53fd",
             "Value": {
                 "id": "b82f9f26-cd77-498a-bf4c-efa33a1d5522",
@@ -327,14 +311,6 @@
             }
         },
         {
-            "Key": "ba37eed7-dbd6-437d-8e14-d1855b53bf6f",
-            "Value": {
-                "id": "db4ca736-8d7a-4aa8-a845-0a49d038cb3e",
-                "resourcePath": "objects\\obj_zombie3\\obj_zombie3.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "ba9f1b6c-67a8-4fa0-9983-d9ee1de9a2cb",
             "Value": {
                 "id": "7f492409-2437-4e94-82a8-72761ad953fe",
@@ -364,14 +340,6 @@
                 "id": "db9f2056-7a10-4963-9eb6-9964c63e0f03",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
-            }
-        },
-        {
-            "Key": "cd049e49-7fd7-4d8c-ae53-b23690dcba5c",
-            "Value": {
-                "id": "7d7a0b8d-189f-415f-9e19-c71095944f6e",
-                "resourcePath": "objects\\Avoid_Zombie\\Avoid_Zombie.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -444,22 +412,6 @@
                 "id": "e76c9196-a47b-4f81-b441-c115bdd73509",
                 "resourcePath": "sprites\\spr_weapon1\\spr_weapon1.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "eefe2a51-dcbc-4433-adf0-72f0232cc63c",
-            "Value": {
-                "id": "98b5983e-7918-48e6-ae83-694aa516ab3f",
-                "resourcePath": "views\\eefe2a51-dcbc-4433-adf0-72f0232cc63c.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "f3ffdc26-14ab-44b6-8874-eeeed8edde1f",
-            "Value": {
-                "id": "5b742063-e712-4a06-a9c4-3955bc48578e",
-                "resourcePath": "objects\\Zombie\\Zombie.yy",
-                "resourceType": "GMObject"
             }
         },
         {
