@@ -1,8 +1,5 @@
 /// @description Insert description here
 
-//	Rotate
-chr_dirD += (sin(degtorad(chr_dir - chr_dirD)) * 20 + 0.1);
-
 //	Draw Self
 draw_sprite_ext(sprite_index, -1, x, y, 1, 1, chr_dirD, c_white, image_alpha);
 
