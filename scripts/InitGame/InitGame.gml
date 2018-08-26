@@ -71,5 +71,6 @@ global.wp_spr[6] = spr_weapon7;
 //	Font
 draw_set_font(ft_main);
 draw_set_halign(fa_middle);
+
+//	Zombie
 global.mgrid=mp_grid_create(0,0,room_width/32,room_height/32,32,32);
-mp_grid_add_instances(global.mgrid,Block,false);
