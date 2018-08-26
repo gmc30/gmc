@@ -58,7 +58,7 @@
             "Key": "0a11c507-f7e7-494f-b085-141ae0af785c",
             "Value": {
                 "id": "3e2335a4-3850-429a-8b81-a3f9c32222a9",
-                "resourcePath": "sprites\\bg_inGame\\bg_inGame.yy",
+                "resourcePath": "sprites\\bg_title\\bg_title.yy",
                 "resourceType": "GMSprite"
             }
         },

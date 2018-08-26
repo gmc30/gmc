@@ -2,7 +2,7 @@
     "id": "0a11c507-f7e7-494f-b085-141ae0af785c",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "bg_inGame",
+    "name": "bg_title",
     "For3D": false,
     "HTile": false,
     "VTile": false,
