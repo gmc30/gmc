@@ -1,7 +1,17 @@
 /// @description Insert description here
 
 var pos, xpos, ypos;
-pos = choose(0, 1, 2, 3);
+
+if room==rm_inGame1{
+	pos = irandom(1);
+}
+else if room==rm_inGame2{
+	pos = irandom(2);
+}
+else if room==rm_inGame3{
+	pos = irandom(3);
+}
+
 
 switch(pos) {
 	case 0:
