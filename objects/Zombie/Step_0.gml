@@ -4,12 +4,8 @@ event_inherited();
 
 if (instance_exists(Character)) {
 	var inst = instance_nearest(x, y, Character);
-	
-	//if (point_distance(x, y, inst.x, inst.y) <= 500 && !place_meeting(x, y, Character) &&
-	//((collision_line(x, y, inst.x, inst.y, Block, false, false) == noone) || (place_meeting(x, y, Block)))	){
 	if (point_distance(x, y, inst.x, inst.y) <= 500) {
-		if (mp_grid_path(global.mgrid, path, x, y, inst.x, inst.y, true))
-		{
+		if (mp_grid_path(global.mgrid, path, x, y, inst.x, inst.y, true) && !place_meeting(x, y, Character)) {
 			//	Find
 			isFind = true;	
 		}
