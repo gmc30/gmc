@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "01fc8f8a-8a7f-4290-aab7-929f7038a643",
+            "Value": {
+                "id": "8a2d7420-30b8-4592-b734-17ed27ef62bf",
+                "resourcePath": "scripts\\InitGame\\InitGame.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "070b84e6-f810-4d26-8d12-bd057607aeac",
             "Value": {
                 "id": "ebfe7440-64fb-46de-8a12-56a3e37b7411",
@@ -271,11 +279,27 @@
             }
         },
         {
+            "Key": "5c3214f1-a240-41fd-bc27-8e7dd4deee79",
+            "Value": {
+                "id": "2ee541b0-084f-4935-bbf8-14fb4c0c4d10",
+                "resourcePath": "rooms\\rm_InitGame\\rm_InitGame.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "6007e82b-61d6-48dd-9a31-f9caf05b8121",
             "Value": {
                 "id": "8836c994-c5c2-45a3-b89f-88d811beb19d",
                 "resourcePath": "sprites\\spr_weapon7\\spr_weapon7.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "612414e5-0ee4-481d-8e63-9db6a4f96d5f",
+            "Value": {
+                "id": "f002f4d6-0f55-4554-8c0d-3cd67ab5c761",
+                "resourcePath": "objects\\Sys_InitGame\\Sys_InitGame.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -680,6 +704,7 @@
         }
     ],
     "script_order": [
+        "01fc8f8a-8a7f-4290-aab7-929f7038a643",
         "e3212e66-fd76-45c0-b461-a704a0787b58",
         "50901175-a68e-4264-a3a7-bce70df88927",
         "a60fb7ab-c3bd-42ab-9a92-c3147c96cb9c",
