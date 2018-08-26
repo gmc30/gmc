@@ -1,12 +1,14 @@
 /// @description InitGame
+
+//	Window Size
 global.game_width = 1280;
 global.game_height = 1024;
-
 surface_resize(application_surface, global.game_width, global.game_height);
 display_set_gui_size(global.game_width, global.game_height);
 window_set_size(global.game_width, global.game_height);
-global.point = 0;
 
+//	Game System
+global.point = 0;
 
 //딱총
 //기관단총
@@ -66,6 +68,7 @@ global.wp_spr[5] = spr_weapon6;
 global.wp_spr[6] = spr_weapon7;
 #endregion
 
+//	Font
 draw_set_font(ft_main);
 draw_set_halign(fa_middle);
 draw_set_valign(fa_center);
