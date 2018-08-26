@@ -8,14 +8,16 @@ image_yscale = image_scale;
 if (isAlpha) {
 	if (isAlphaP == false) {
 		if (image_alpha > 0) {
-			image_alpha += alpha_speed;
+			//	--
+			image_alpha -= alpha_speed;
 		}
 		else {
-			instance_destroy();
+			instance_destroy();			
 		}
 	}
 	else {
-		if (image_alpha <= 1) {
+		if (image_alpha < 1) {
+			//	++
 			image_alpha += alpha_speed
 		}
 		else {
@@ -25,22 +27,13 @@ if (isAlpha) {
 }
 
 //	Scale
-if (isScale) {
-	if (isScaleP == false) {
-		if (image_scale > 0) {
-			image_scale += scale_speed;
-		}
-		else {
-			instance_destroy();
-		}
+if (isScale) { 
+	if (image_scale > 0) {
+		//	--
+		image_scale -= scale_speed;
 	}
 	else {
-		if (image_scale <= 1) {
-			image_scale += scale_speed
-		}
-		else {
-			instance_destroy();
-		}
+		instance_destroy();
 	}
 }
 

@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "58c3da61-1ab8-4ceb-ad5c-c6dea56f28a5",
+            "Value": {
+                "id": "18e46eeb-1dae-49ff-a862-e516ea6b7c72",
+                "resourcePath": "objects\\eft_fadeOut\\eft_fadeOut.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "59e6591a-3157-4bcd-a11a-1a1d507b4558",
             "Value": {
                 "id": "89d47585-f803-45de-8a1f-daf674db5990",
@@ -775,19 +783,19 @@
             }
         },
         {
-
+            "Key": "d5895980-d52c-4583-84c5-ee66c39d1390",
+            "Value": {
+                "id": "64ef06e0-d6cd-421f-8138-158dd442d2b1",
+                "resourcePath": "sprites\\spr_boss2\\spr_boss2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "dad90dd0-96d8-4790-a4d6-639efa57d903",
             "Value": {
                 "id": "75e711c9-2193-498a-8704-ac5e0e2b3851",
                 "resourcePath": "views\\dad90dd0-96d8-4790-a4d6-639efa57d903.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {            "Key": "d5895980-d52c-4583-84c5-ee66c39d1390",
-            "Value": {
-                "id": "64ef06e0-d6cd-421f-8138-158dd442d2b1",
-                "resourcePath": "sprites\\spr_boss2\\spr_boss2.yy",
-                "resourceType": "GMSprite"
             }
         },
         {

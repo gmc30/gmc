@@ -10,4 +10,7 @@ if(instance_exists(obj_chr1)){
 else{
 	cam=camera_create_view(0,0,1280,960);
 }
-view_camera[0]=cam;
+view_camera[0] = cam;
+
+//	FadeOut
+instance_create_layer(0, 0, "layer_effect", eft_fadeOut);

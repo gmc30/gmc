@@ -16,25 +16,20 @@ for(var i = 1; i <= argument0; i++) {
 
 		//	True++ False--
 		isAlphaP = false;
-		isScaleP = false;
 
 		alpha_speed = 0;
 		scale_speed = 0;
 		angle_speed = 0;
 
-
 		switch(argument3) {
 			case eft_blood:
-				//	Rands
 				direction = random(360);
 				image_angle = direction;
 				speed = random_range(2, 4);
 				image_speed = 1;
 				angle_speed = random_range(2,5) * choose(1,-1);
 				break;
-				
 			case eft_item:
-				//	Rands
 				direction = random(360);
 				image_angle = direction;
 				speed = random_range(2, 4);
