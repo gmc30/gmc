@@ -1,7 +1,7 @@
 /// @description TEXT
 event_inherited();
 
-spd = 1;
+spd = 1.5;
 hp = 3;
 damage = 1;
 

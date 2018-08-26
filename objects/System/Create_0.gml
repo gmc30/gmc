@@ -68,3 +68,7 @@ draw_set_font(ft_main);
 draw_set_halign(fa_middle);
 draw_set_valign(fa_center);
 surface_resize(application_surface, global.game_width, global.game_height);
+
+
+global.mgrid=mp_grid_create(0,0,room_width/32,room_height/32,32,32);
+mp_grid_add_instances(global.mgrid,Block,false);

@@ -25,13 +25,14 @@ for(var i = 1; i <= argument0; i++) {
 		switch(argument3) {
 			case eft_blood1:
 				//	Rands
-				direction = (360 / argument0)* i;
-				image_angle = direction
-				speed = random_range(6, 10);
+				direction = random(360);
+				image_angle = direction;
+				speed = random_range(2, 4);
+				image_speed=1;
 				
-				image_alpha = 1;
-				isAlpha = true;
-				alpha_speed = -0.08;
+				//image_alpha = 1;
+				//isAlpha = true;
+				//alpha_speed = -0.02;
 				break;
 		}
 	}
