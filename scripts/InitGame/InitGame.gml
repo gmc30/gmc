@@ -8,7 +8,7 @@ display_set_gui_size(global.game_width, global.game_height);
 window_set_size(global.game_width, global.game_height);
 
 //	Game System
-global.point = 0;
+//	TODO
 
 //딱총
 //기관단총
@@ -53,8 +53,8 @@ global.wp_many[6] = 2;
 
 global.wp_bullet[0] = obj_bullet1;
 global.wp_bullet[1] = obj_bullet1;
-global.wp_bullet[2] = obj_bullet2;
-global.wp_bullet[3] = obj_bullet1;
+global.wp_bullet[2] = obj_bullet1;
+global.wp_bullet[3] = obj_bullet2;
 global.wp_bullet[4] = obj_bullet1;
 global.wp_bullet[5] = obj_bullet2;
 global.wp_bullet[6] = obj_bullet3;
@@ -69,19 +69,11 @@ global.wp_spr[6] = spr_weapon7;
 
 global.wp_ammoM[0] = -1;
 global.wp_ammoM[1] = 200;
-global.wp_ammoM[2] = 80;
+global.wp_ammoM[2] = 100;
 global.wp_ammoM[3] = 120;
 global.wp_ammoM[4] = 300;
 global.wp_ammoM[5] = 20;
 global.wp_ammoM[6] = 1000;
-
-global.wp_ammo[0] = global.wp_ammoM[0];
-global.wp_ammo[1] = global.wp_ammoM[1];
-global.wp_ammo[2] = global.wp_ammoM[2];
-global.wp_ammo[3] = global.wp_ammoM[3];
-global.wp_ammo[4] = global.wp_ammoM[4];
-global.wp_ammo[5] = global.wp_ammoM[5];
-global.wp_ammo[6] = global.wp_ammoM[6];
 
 global.wp_name[0] = "Pistol";
 global.wp_name[1] = "SMG";

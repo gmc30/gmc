@@ -1,17 +1,7 @@
 /// @description Insert description here
 
 var pos, xpos, ypos;
-
-if room==rm_inGame1{
-	pos = irandom(1);
-}
-else if room==rm_inGame2{
-	pos = irandom(2);
-}
-else if room==rm_inGame3{
-	pos = irandom(3);
-}
-
+pos = irandom(3);
 
 switch(pos) {
 	case 0:
@@ -35,5 +25,5 @@ switch(pos) {
 		ypos = room_height;
 		break;
 }
-instance_create_layer(xpos, ypos, "layer_mob", choose(obj_zombie1, obj_zombie2, obj_zombie3));
+instance_create_layer(xpos, ypos, "layer_mob", choose(obj_zombie1, obj_zombie2, obj_zombie3, obj_zombie4));
 alarm[0] = room_speed * 5;

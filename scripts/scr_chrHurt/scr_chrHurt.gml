@@ -11,7 +11,7 @@ if (chr_hp - other.damage > 0) {
 		alarm[1] = room_speed * argument0;
 		image_alpha = argument1;
 		
-		scr_blood(6, x, y, eft_blood1);
+		scr_effect(6, x, y, eft_blood);
 	}
 }
 else {

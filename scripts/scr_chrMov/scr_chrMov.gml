@@ -3,7 +3,8 @@
 ///@param key_right
 ///@param key_up
 ///@param key_down
-///@param speed
+///@param mov_speed
+///@param rot_speed
 
 ////////////////////////////////////////////////////////////
 /// Input
@@ -124,4 +125,17 @@ else {
 	while(!place_meeting(x, y + chr_ydir, Block)) {
 		y += chr_ydir;
 	}
+}
+
+//	Limit Position
+x = clamp(x, camera_get_view_x(Sys_inGame.cam), camera_get_view_x(Sys_inGame.cam) + camera_get_view_width(Sys_inGame.cam));
+y = clamp(y, camera_get_view_y(Sys_inGame.cam), camera_get_view_y(Sys_inGame.cam) + camera_get_view_height(Sys_inGame.cam));
+
+//	Rotate
+var ad = angle_difference(chr_dir, chr_dirD);
+if (ad > 0) {
+	chr_dirD += min(ad, argument5);
+}
+else if (ad < 0) {
+	chr_dirD += max(ad, -argument5)
 }

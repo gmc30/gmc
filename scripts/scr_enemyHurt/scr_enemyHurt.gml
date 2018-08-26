@@ -9,11 +9,11 @@ if (other.hp - damage > 0) {
 		other.enemy_isHurtD = true;
 		other.alarm[0] = room_speed * argument0;
 		
-		scr_blood(1, other.x, other.y, eft_blood1);
+		scr_effect(1, other.x, other.y, eft_blood);
 	}
 }
 else {
 	//	Die
 	other.hp = 0;
-	scr_blood(1, other.x, other.y, eft_blood1);
+	scr_effect(1, other.x, other.y, eft_blood);
 }

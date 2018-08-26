@@ -9,17 +9,17 @@
 var dist, use_ammo;
 dist = 60; 
 if (argument0 && chr_isAtkD == false && collision_line(x, y, x + lengthdir_x(dist, chr_dirD), y + lengthdir_y(dist, chr_dirD), Block, false, false) == noone) {
-	if (global.wp_ammo[chr_weapon] > 0 || global.wp_ammo[chr_weapon] == -1) {
+	if (wp_ammo[chr_weapon] > 0 || wp_ammo[chr_weapon] == -1) {
 		//	Set Ammo
-		if (global.wp_ammo[chr_weapon] >= argument1) {
+		if (wp_ammo[chr_weapon] >= argument1) {
 			use_ammo = argument1;
 		}
 		else {
-			use_ammo = global.wp_ammo[chr_weapon]; 
+			use_ammo = wp_ammo[chr_weapon]; 
 		}
 		
 		//	Infinity
-		if (global.wp_ammo[chr_weapon] == -1) {
+		if (wp_ammo[chr_weapon] == -1) {
 			use_ammo = argument1;
 		}
 		
@@ -34,8 +34,8 @@ if (argument0 && chr_isAtkD == false && collision_line(x, y, x + lengthdir_x(dis
 			chr_isAtkD = true;
 			alarm[0] = argument5 * room_speed;
 			
-			if (global.wp_ammo[chr_weapon] != -1) {
-				global.wp_ammo[chr_weapon] -= 1;
+			if (wp_ammo[chr_weapon] != -1) {
+				wp_ammo[chr_weapon] -= 1;
 			}
 		}
 	}
