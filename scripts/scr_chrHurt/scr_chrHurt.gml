@@ -17,6 +17,4 @@ if (chr_hp - other.damage > 0) {
 else {
 	//	Die
 	chr_hp = 0;
-	
-	scr_blood(6, x, y, eft_blood1);
 }

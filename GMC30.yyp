@@ -199,6 +199,22 @@
             }
         },
         {
+            "Key": "39e800b8-56d7-40ea-82a8-6dcf8851f000",
+            "Value": {
+                "id": "d2c56d37-7921-4a8d-a882-83815b7af2cd",
+                "resourcePath": "fonts\\ft_ammo\\ft_ammo.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "3b352116-1881-412a-9e85-c17e997971c7",
+            "Value": {
+                "id": "eaed76eb-9f86-450f-bf7d-f0575f9a42c6",
+                "resourcePath": "views\\3b352116-1881-412a-9e85-c17e997971c7.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "3b96ac98-7427-47e3-8dda-eba966586d63",
             "Value": {
                 "id": "2c67a3aa-ef69-4d4b-9645-aa6c7e30c3dd",

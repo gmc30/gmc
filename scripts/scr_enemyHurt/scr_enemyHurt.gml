@@ -15,6 +15,5 @@ if (other.hp - damage > 0) {
 else {
 	//	Die
 	other.hp = 0;
-	
 	scr_blood(1, other.x, other.y, eft_blood1);
 }
