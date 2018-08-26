@@ -50,7 +50,7 @@
             "Key": "08694631-b9b5-4066-8da6-7464f45f2660",
             "Value": {
                 "id": "f2751c35-a1f8-4b9d-b9f3-57a3ae4f040a",
-                "resourcePath": "objects\\eft_blood1\\eft_blood1.yy",
+                "resourcePath": "objects\\eft_blood\\eft_blood.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "26e14a94-35cc-4c79-883d-86643b54846f",
+            "Value": {
+                "id": "4b20e7f5-3844-479a-88f0-b31a1b8b027c",
+                "resourcePath": "objects\\eft_item\\eft_item.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "27102bed-f262-4a2f-ab0c-b5a5ef08f4d8",
             "Value": {
                 "id": "8aff2a35-0448-4f71-b19c-6b352123ec41",
@@ -202,8 +210,16 @@
             "Key": "328747e6-3dd7-4c85-b60d-c94c9dd8df84",
             "Value": {
                 "id": "67df3118-d19c-49c0-8e2c-3c396f59e27b",
-                "resourcePath": "sprites\\spr_blood1\\spr_blood1.yy",
+                "resourcePath": "sprites\\spr_blood\\spr_blood.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "360b3538-a600-4bd1-99a0-7ae4d4a78aaf",
+            "Value": {
+                "id": "c8b0bfc9-7334-4fbb-9779-0f388682e73a",
+                "resourcePath": "views\\360b3538-a600-4bd1-99a0-7ae4d4a78aaf.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -244,6 +260,14 @@
                 "id": "5b5be987-7e0a-4de5-9cb0-bea35d150355",
                 "resourcePath": "objects\\obj_bullet3\\obj_bullet3.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "40c7c87a-7cc2-43b0-99e1-504015b073c0",
+            "Value": {
+                "id": "530728c4-ba4f-49a3-b3ee-30bd7d226fa0",
+                "resourcePath": "sprites\\spr_healKit\\spr_healKit.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -315,6 +339,14 @@
             "Value": {
                 "id": "843261aa-a45d-4673-8191-25ba8c5fc55f",
                 "resourcePath": "sprites\\spr_bullet1\\spr_bullet1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "58430079-632e-4d8e-9e53-6ee284a089c8",
+            "Value": {
+                "id": "dbc18c1c-a966-449f-8930-e5adaa9d57cc",
+                "resourcePath": "sprites\\spr_smoke\\spr_smoke.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -522,7 +554,7 @@
             "Key": "abfb5454-515e-40a7-b34f-a7c24315158e",
             "Value": {
                 "id": "ea17e418-a992-4206-bfe4-776f3f5eb49e",
-                "resourcePath": "scripts\\scr_blood\\scr_blood.yy",
+                "resourcePath": "scripts\\scr_effect\\scr_effect.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -604,6 +636,14 @@
                 "id": "7f694003-90f8-498a-b259-b216494ba5cb",
                 "resourcePath": "sprites\\spr_bullet2\\spr_bullet2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bffe1622-c356-489e-95a3-4069aa687335",
+            "Value": {
+                "id": "af79eef7-5b80-40a6-af70-5c6a75706be9",
+                "resourcePath": "objects\\obj_healKit\\obj_healKit.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -698,7 +738,7 @@
             "Key": "cf94156f-dad4-4081-bd20-502bee53ae6d",
             "Value": {
                 "id": "3230aa45-2e57-438c-a94d-453a71c1a101",
-                "resourcePath": "rooms\\rm_inGame1\\rm_inGame1.yy",
+                "resourcePath": "rooms\\rm_inTest\\rm_inTest.yy",
                 "resourceType": "GMRoom"
             }
         },

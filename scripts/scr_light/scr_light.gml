@@ -18,7 +18,7 @@ with(Character) {
 }
 
 with(Bullet) {
-    draw_sprite_ext(spr_light1, 0, (x - camera_get_view_x(Sys_inGame.cam)) * rw, (y - camera_get_view_y(Sys_inGame.cam)) * rh, light_size * rw * 0.6, light_size * rh * 0.6, 0, c_white, 0.5);
+    draw_sprite_ext(spr_light1, 0, (x - camera_get_view_x(Sys_inGame.cam)) * rw, (y - camera_get_view_y(Sys_inGame.cam)) * rh, light_size * rw * 0.6, light_size * rh * 0.6, 0, c_white, image_alpha / 2);
 }
 
 with(Flash) {

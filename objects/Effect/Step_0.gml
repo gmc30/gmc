@@ -1,5 +1,8 @@
 /// @description Insert description here
-// You can write your code in this editor
+
+//	Setting
+image_xscale = image_scale;
+image_yscale = image_scale;
 
 //	Alpha
 if (isAlpha) {
@@ -40,3 +43,6 @@ if (isScale) {
 		}
 	}
 }
+
+//	Angle
+image_angle += angle_speed

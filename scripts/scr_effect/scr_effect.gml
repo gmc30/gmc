@@ -20,19 +20,26 @@ for(var i = 1; i <= argument0; i++) {
 
 		alpha_speed = 0;
 		scale_speed = 0;
+		angle_speed = 0;
 
 
 		switch(argument3) {
-			case eft_blood1:
+			case eft_blood:
 				//	Rands
 				direction = random(360);
 				image_angle = direction;
 				speed = random_range(2, 4);
-				image_speed=1;
+				image_speed = 1;
+				angle_speed = random_range(2,5) * choose(1,-1);
+				break;
 				
-				//image_alpha = 1;
-				//isAlpha = true;
-				//alpha_speed = -0.02;
+			case eft_item:
+				//	Rands
+				direction = random(360);
+				image_angle = direction;
+				speed = random_range(2, 4);
+				image_speed = 1;
+				angle_speed = random_range(2,5) * choose(1,-1);
 				break;
 		}
 	}

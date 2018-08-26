@@ -2,7 +2,7 @@
 
 scr_enemyHurt(0.1);
 
-//	Knock Back
+//	KnockBack
 if (!place_meeting(other.x + lengthdir_x(pow, direction), other.y, Block)) {
 	//	Horizontal
 	other.x += lengthdir_x(pow, direction);

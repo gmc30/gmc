@@ -53,8 +53,8 @@ global.wp_many[6] = 2;
 
 global.wp_bullet[0] = obj_bullet1;
 global.wp_bullet[1] = obj_bullet1;
-global.wp_bullet[2] = obj_bullet2;
-global.wp_bullet[3] = obj_bullet1;
+global.wp_bullet[2] = obj_bullet1;
+global.wp_bullet[3] = obj_bullet2;
 global.wp_bullet[4] = obj_bullet1;
 global.wp_bullet[5] = obj_bullet2;
 global.wp_bullet[6] = obj_bullet3;
@@ -69,7 +69,7 @@ global.wp_spr[6] = spr_weapon7;
 
 global.wp_ammoM[0] = -1;
 global.wp_ammoM[1] = 200;
-global.wp_ammoM[2] = 80;
+global.wp_ammoM[2] = 100;
 global.wp_ammoM[3] = 120;
 global.wp_ammoM[4] = 300;
 global.wp_ammoM[5] = 20;
