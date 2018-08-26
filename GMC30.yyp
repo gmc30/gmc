@@ -655,6 +655,14 @@
             }
         },
         {
+            "Key": "e2f4c5d7-9014-433d-a0df-8a99c43be4a3",
+            "Value": {
+                "id": "6c81252a-0f3d-4942-8287-06214e06ea77",
+                "resourcePath": "objects\\obj_zombie4_blood\\obj_zombie4_blood.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e305a0bb-ca09-49f2-84d7-a69b0b688b13",
             "Value": {
                 "id": "caa16c00-e331-44de-8af1-9fdccf7cc42a",
