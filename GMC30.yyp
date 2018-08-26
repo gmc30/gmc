@@ -194,7 +194,7 @@
             "Key": "37bdda16-3220-4673-a979-badee28dd5ed",
             "Value": {
                 "id": "1cfa65c3-085e-4811-9c15-0fa147992808",
-                "resourcePath": "sprites\\spr_background\\spr_background.yy",
+                "resourcePath": "sprites\\spr_tile1\\spr_tile1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "63c6f6a0-0946-4672-9e1d-9477b4b8c5f7",
+            "Value": {
+                "id": "0cd01b0f-9c95-4f2a-b3eb-e83ef1060628",
+                "resourcePath": "objects\\Item\\Item.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "67e2cce5-574d-4356-97f6-eb33cee8e468",
             "Value": {
                 "id": "9c8ae076-a04e-4a58-a704-18f74cd6a565",
@@ -347,6 +355,14 @@
             "Value": {
                 "id": "497567f1-c535-472b-97e0-fa27ca6c8213",
                 "resourcePath": "views\\730344f7-7aab-4c93-b2b5-fa79235c2059.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "792e0db5-c921-4984-a19f-76fc3e87a9d2",
+            "Value": {
+                "id": "fc00e0fa-3eb3-4f08-91a8-05e54caa2fdb",
+                "resourcePath": "views\\792e0db5-c921-4984-a19f-76fc3e87a9d2.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -431,6 +447,14 @@
             }
         },
         {
+            "Key": "9d0ca8d3-f173-4bba-93e2-d8a699672323",
+            "Value": {
+                "id": "7073c79b-54e9-42d6-937e-20d529c42909",
+                "resourcePath": "sprites\\spr_ammo\\spr_ammo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9df3e322-a985-4660-9916-6613750be154",
             "Value": {
                 "id": "b0816e29-e8e8-4696-a0fa-00ea91f2e1b9",
@@ -468,6 +492,14 @@
                 "id": "ea17e418-a992-4206-bfe4-776f3f5eb49e",
                 "resourcePath": "scripts\\scr_blood\\scr_blood.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "acb9f848-942a-4d1c-9243-51698bb98820",
+            "Value": {
+                "id": "5669a511-f6f6-4e37-bfb4-b60793c90a9c",
+                "resourcePath": "objects\\obj_ammo\\obj_ammo.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -763,6 +795,14 @@
             "Value": {
                 "id": "591ef749-264c-4031-a18d-b2be958882b7",
                 "resourcePath": "views\\f74c03a2-9051-4cdc-9f6f-9aaac9bf9908.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f82e5a2b-bbbf-4fba-a403-620b9748bc06",
+            "Value": {
+                "id": "b9e54630-43a0-4c55-91e5-527f09d302a3",
+                "resourcePath": "views\\f82e5a2b-bbbf-4fba-a403-620b9748bc06.yy",
                 "resourceType": "GMFolder"
             }
         },

@@ -1,7 +1,7 @@
 /// @description Draw Lighting
 
 if (surface_exists(suf_light)) {
-    draw_surface_ext(suf_light, camera_get_view_x(Sys_inGame.cam), camera_get_view_y(Sys_inGame.cam), 1, 1, 0, c_white, 0.9);
+    draw_surface_ext(suf_light, camera_get_view_x(Sys_inGame.cam), camera_get_view_y(Sys_inGame.cam), 1, 1, 0, c_white, 0.8);
 }
 else {
 	suf_light = surface_create(global.game_width, global.game_height);

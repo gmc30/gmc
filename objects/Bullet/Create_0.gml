@@ -1,2 +1,5 @@
 /// @description TEXT
-pow=1;
+
+//	Bullet Range
+sx = x;
+sy = y;

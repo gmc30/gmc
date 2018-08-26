@@ -1,4 +1,3 @@
 /// @description TEXT
 
-event_inherited();
-damage=2;
+damage = 2;
