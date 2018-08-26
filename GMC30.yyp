@@ -701,6 +701,14 @@
                 "resourcePath": "views\\fdf65f52-5eda-44c7-9fe4-4c1074cb7b77.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "ffbeafdc-e0aa-44b8-bcbb-c81370558347",
+            "Value": {
+                "id": "66539456-e98c-4fd0-ab66-bcfe7e7aa887",
+                "resourcePath": "sprites\\spr_zombie4\\spr_zombie4.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "script_order": [
