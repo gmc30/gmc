@@ -191,11 +191,27 @@
             }
         },
         {
+            "Key": "37bdda16-3220-4673-a979-badee28dd5ed",
+            "Value": {
+                "id": "1cfa65c3-085e-4811-9c15-0fa147992808",
+                "resourcePath": "sprites\\spr_background\\spr_background.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "39e800b8-56d7-40ea-82a8-6dcf8851f000",
             "Value": {
                 "id": "d2c56d37-7921-4a8d-a882-83815b7af2cd",
                 "resourcePath": "fonts\\ft_ammo\\ft_ammo.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "3b352116-1881-412a-9e85-c17e997971c7",
+            "Value": {
+                "id": "eaed76eb-9f86-450f-bf7d-f0575f9a42c6",
+                "resourcePath": "views\\3b352116-1881-412a-9e85-c17e997971c7.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -332,6 +348,14 @@
                 "id": "497567f1-c535-472b-97e0-fa27ca6c8213",
                 "resourcePath": "views\\730344f7-7aab-4c93-b2b5-fa79235c2059.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7d12dc65-f730-4e58-848e-aea5a867de60",
+            "Value": {
+                "id": "3bf3d2ae-ae7c-4514-838c-10d0afcfc922",
+                "resourcePath": "objects\\obj_zombie4\\obj_zombie4.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -615,6 +639,14 @@
             }
         },
         {
+            "Key": "df581d4a-4d74-424a-8fc6-fb6690f79a63",
+            "Value": {
+                "id": "da280466-8a23-4f24-925f-e79d27fee2b4",
+                "resourcePath": "sprites\\spr_zombie4_blood\\spr_zombie4_blood.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e18d64da-03d3-48e2-b77f-ee09d3eb23b6",
             "Value": {
                 "id": "86999389-ddd2-49b4-bead-ce802316ed56",
@@ -708,6 +740,14 @@
                 "id": "698dfc3b-4b39-4c38-9d2f-e66528e3935a",
                 "resourcePath": "views\\fdf65f52-5eda-44c7-9fe4-4c1074cb7b77.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ffbeafdc-e0aa-44b8-bcbb-c81370558347",
+            "Value": {
+                "id": "66539456-e98c-4fd0-ab66-bcfe7e7aa887",
+                "resourcePath": "sprites\\spr_zombie4\\spr_zombie4.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],

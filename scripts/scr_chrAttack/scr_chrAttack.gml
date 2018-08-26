@@ -20,7 +20,7 @@ if (argument0 && chr_isAtkD == false && collision_line(x, y, x + lengthdir_x(dis
 		
 		//	Infinity
 		if (global.wp_ammo[chr_weapon] == -1) {
-			use_ammo = 0;
+			use_ammo = argument1;
 		}
 		
 		repeat(use_ammo) {
@@ -34,7 +34,9 @@ if (argument0 && chr_isAtkD == false && collision_line(x, y, x + lengthdir_x(dis
 			chr_isAtkD = true;
 			alarm[0] = argument5 * room_speed;
 			
-			global.wp_ammo[chr_weapon] -= 1;
+			if (global.wp_ammo[chr_weapon] != -1) {
+				global.wp_ammo[chr_weapon] -= 1;
+			}
 		}
 	}
 	else {
