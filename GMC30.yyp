@@ -186,7 +186,7 @@
             "Key": "328747e6-3dd7-4c85-b60d-c94c9dd8df84",
             "Value": {
                 "id": "67df3118-d19c-49c0-8e2c-3c396f59e27b",
-                "resourcePath": "sprites\\spr_blood\\spr_blood.yy",
+                "resourcePath": "sprites\\spr_blood1\\spr_blood1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -615,6 +615,14 @@
             }
         },
         {
+            "Key": "cf8c3c5b-ab1f-438d-acd0-0c98464fbefa",
+            "Value": {
+                "id": "86eef7e0-5207-4a71-9b0c-89125792acdb",
+                "resourcePath": "sprites\\spr_light1\\spr_light1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cf94156f-dad4-4081-bd20-502bee53ae6d",
             "Value": {
                 "id": "3230aa45-2e57-438c-a94d-453a71c1a101",
@@ -703,6 +711,14 @@
             }
         },
         {
+            "Key": "f05429ae-33eb-48b3-b842-6b50a81f56a7",
+            "Value": {
+                "id": "d7c61fd7-b30e-421c-ae51-7fb2315dc20a",
+                "resourcePath": "scripts\\scr_light\\scr_light.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f15ada30-ee3a-49d8-adca-d3feedaa27ac",
             "Value": {
                 "id": "c9bb9d4f-b7b4-4c68-a83a-8c50189ab6fd",
@@ -758,7 +774,8 @@
         "a60fb7ab-c3bd-42ab-9a92-c3147c96cb9c",
         "c0a3fd52-5866-4636-9cdf-36c414e54b97",
         "2e82e0fd-ceb3-400f-a2b4-b9c6ccdcce98",
-        "abfb5454-515e-40a7-b34f-a7c24315158e"
+        "abfb5454-515e-40a7-b34f-a7c24315158e",
+        "f05429ae-33eb-48b3-b842-6b50a81f56a7"
     ],
     "tutorial": ""
 }
