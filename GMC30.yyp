@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "7d12dc65-f730-4e58-848e-aea5a867de60",
+            "Value": {
+                "id": "3bf3d2ae-ae7c-4514-838c-10d0afcfc922",
+                "resourcePath": "objects\\obj_zombie4\\obj_zombie4.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7f8158c9-24c1-4c63-ac61-e65632252f99",
             "Value": {
                 "id": "da187edd-4429-4f27-b23c-7440a130d64e",
@@ -603,6 +611,14 @@
             "Value": {
                 "id": "20fd79d3-fe49-4d6f-8a0a-41c0882f6d52",
                 "resourcePath": "sprites\\spr_chr1\\spr_chr1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "df581d4a-4d74-424a-8fc6-fb6690f79a63",
+            "Value": {
+                "id": "da280466-8a23-4f24-925f-e79d27fee2b4",
+                "resourcePath": "sprites\\spr_zombie4_blood\\spr_zombie4_blood.yy",
                 "resourceType": "GMSprite"
             }
         },
