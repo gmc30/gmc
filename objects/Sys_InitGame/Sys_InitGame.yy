@@ -1,28 +1,18 @@
 {
-    "id": "8cb9a701-21d7-4693-ba53-332051a9a5fb",
+    "id": "612414e5-0ee4-481d-8e63-9db6a4f96d5f",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "System",
+    "name": "Sys_InitGame",
     "eventList": [
         {
-            "id": "a31ceea2-e5b3-45a5-91b5-9bab454125b3",
+            "id": "3c37251d-6828-49aa-b852-47ca571b2fd0",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "8cb9a701-21d7-4693-ba53-332051a9a5fb"
-        },
-        {
-            "id": "311a24b6-0c0b-4477-b754-ae7aeac9c210",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 64,
-            "eventtype": 8,
-            "m_owner": "8cb9a701-21d7-4693-ba53-332051a9a5fb"
+            "m_owner": "612414e5-0ee4-481d-8e63-9db6a4f96d5f"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

@@ -1,8 +1,10 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description InitGame
 global.game_width = 1280;
 global.game_height = 1024;
 
+surface_resize(application_surface, global.game_width, global.game_height);
+display_set_gui_size(global.game_width, global.game_height);
+window_set_size(global.game_width, global.game_height);
 global.point = 0;
 
 
@@ -66,9 +68,5 @@ global.wp_spr[6] = spr_weapon7;
 
 draw_set_font(ft_main);
 draw_set_halign(fa_middle);
-draw_set_valign(fa_center);
-surface_resize(application_surface, global.game_width, global.game_height);
-
-
 global.mgrid=mp_grid_create(0,0,room_width/32,room_height/32,32,32);
 mp_grid_add_instances(global.mgrid,Block,false);
