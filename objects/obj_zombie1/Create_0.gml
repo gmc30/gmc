@@ -1,5 +1,6 @@
 /// @description Insert description here
-// You can write your code in this editor
-spd = 2.5;
+event_inherited();
+
+spd = 1;
 hp = 3;
 damage = 1;

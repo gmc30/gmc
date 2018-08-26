@@ -6,7 +6,7 @@
 ///@param damamge
 ///@param delay_s
 
-var dist = 80; 
+var dist = 60; 
 if (argument0 && chr_isAtkD == false && collision_line(x, y, x + lengthdir_x(dist, chr_dirD), y + lengthdir_y(dist, chr_dirD), Block, false, false) == noone) {
 	repeat(argument1) {
 		//	Attack
