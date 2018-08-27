@@ -6,5 +6,5 @@ if(num>4){
 	draw_set_halign(1);
 	draw_set_color(c_white);
 	draw_set_font(ft_ammo);
-	draw_text_ext(640,480+100,text[num],22,640);
+	draw_text_ext(640,480,text[num],22,640);
 }
