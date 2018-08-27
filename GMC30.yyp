@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "040aaaee-b271-4c29-be43-b5f67fc1a609",
+            "Value": {
+                "id": "fc061c43-fcfc-4992-ab33-36362b23ab02",
+                "resourcePath": "rooms\\rm_inGame3\\rm_inGame3.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "070b84e6-f810-4d26-8d12-bd057607aeac",
             "Value": {
                 "id": "ebfe7440-64fb-46de-8a12-56a3e37b7411",
