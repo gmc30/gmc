@@ -8,8 +8,7 @@
         "612414e5-0ee4-481d-8e63-9db6a4f96d5f",
         "8cb9a701-21d7-4693-ba53-332051a9a5fb",
         "11642036-a4df-48e4-b1d7-4814455bbd2d",
-        "e65d67a6-6e21-4cf4-9c52-a9a5bf1728f8",
-        "bf7018ab-66f1-44ed-9548-0b924f850326"
+        "e65d67a6-6e21-4cf4-9c52-a9a5bf1728f8"
     ],
     "filterType": "GMObject",
     "folderName": "System",
