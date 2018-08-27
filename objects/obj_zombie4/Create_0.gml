@@ -2,7 +2,7 @@
 event_inherited();
 
 spd = random_range(0.5, 1);
-hp = 12;
+hp = 8;
 damage = 1;
 delay=0;
 

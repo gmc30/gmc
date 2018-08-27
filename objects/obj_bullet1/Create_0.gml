@@ -3,5 +3,5 @@
 event_inherited();
 
 speed = random_range(14, 18);
-pow = 3;
+pow = 4;
 range = 300;

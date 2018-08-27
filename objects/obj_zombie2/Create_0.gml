@@ -2,5 +2,5 @@
 event_inherited();
 
 spd = random_range(1, 1.5);
-hp = 14;
+hp = 10;
 damage = 2;
