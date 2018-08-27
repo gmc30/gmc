@@ -70,12 +70,12 @@ global.wp_spr[5] = spr_weapon6;
 global.wp_spr[6] = spr_weapon7;
 
 global.wp_ammoM[0] = -1;
-global.wp_ammoM[1] = 200;
-global.wp_ammoM[2] = 100;
-global.wp_ammoM[3] = 120;
-global.wp_ammoM[4] = 300;
-global.wp_ammoM[5] = 20;
-global.wp_ammoM[6] = 1000;
+global.wp_ammoM[1] = 100;
+global.wp_ammoM[2] = 50;
+global.wp_ammoM[3] = 60;
+global.wp_ammoM[4] = 150;
+global.wp_ammoM[5] = 10;
+global.wp_ammoM[6] = 500;
 
 global.wp_name[0] = "Pistol";
 global.wp_name[1] = "SMG";

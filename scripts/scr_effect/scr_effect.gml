@@ -10,13 +10,6 @@ for(var i = 1; i <= argument0; i++) {
 	with(eft) {
 		//	Default
 		image_scale = 1;
-
-		isAlpha = false;
-		isScale = false;
-
-		//	True++ False--
-		isAlphaP = false;
-
 		alpha_speed = 0;
 		scale_speed = 0;
 		angle_speed = 0;

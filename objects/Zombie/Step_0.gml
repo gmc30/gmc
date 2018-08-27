@@ -15,11 +15,28 @@ if (instance_exists(Character)) {
 		}
 	}
 	
+	var angleT = angle;
 	if (isFind) {
 		path_start(path, spd, path_action_stop, 0);
-		angle = point_direction(x, y, inst.x, inst.y);
+		
+		//	Angle
+		if (collision_line(x, y, inst.x, inst.y, Block, false, false) == noone) {
+			angleT = point_direction(x, y, inst.x, inst.y);
+		}
+		else {
+			angleT = direction;
+		}
 	}
 	else {
 		path_end();
+	}
+			
+	//	Rotate		
+	var ad = angle_difference(angleT, angle);
+	if (ad > 0) {
+		angle += min(ad, 10);
+	}
+	else if (ad < 0) {
+		angle += max(ad, -10)
 	}
 }

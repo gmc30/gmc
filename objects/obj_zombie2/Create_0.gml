@@ -1,6 +1,6 @@
 /// @description TEXT
 event_inherited();
 
-spd = 0.8;
+spd = random_range(1, 1.5);
 hp = 14;
 damage = 2;
