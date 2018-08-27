@@ -93,6 +93,9 @@ draw_set_halign(fa_middle);
 //	Zombie
 global.mgrid = noone;
 
+//	Sound Play
+audio_play_sound(bgm_game, 0, true);
+
 
 
 
