@@ -1,28 +1,28 @@
 {
-    "id": "bf7018ab-66f1-44ed-9548-0b924f850326",
+    "id": "82b4a400-ae7c-437d-b800-eb9ae5c3fd8b",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "NextRoom",
+    "name": "GameStatus",
     "eventList": [
         {
-            "id": "5c957946-a651-467d-bd05-8d1e89b928cf",
+            "id": "8065776c-4474-4fd4-a0fd-3aa3bbfbfcf9",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 75,
             "eventtype": 8,
-            "m_owner": "bf7018ab-66f1-44ed-9548-0b924f850326"
+            "m_owner": "82b4a400-ae7c-437d-b800-eb9ae5c3fd8b"
         },
         {
-            "id": "8229d320-66b8-408d-8e33-064095d3e490",
+            "id": "b4527b3f-4a25-41f6-a31e-9e6544cfc885",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "bf7018ab-66f1-44ed-9548-0b924f850326"
+            "eventtype": 0,
+            "m_owner": "82b4a400-ae7c-437d-b800-eb9ae5c3fd8b"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

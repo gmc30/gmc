@@ -4,7 +4,7 @@
 
 if (chr_isAtkD == false) {
 	if (argument0) {
-		if (chr_weapon >= chr_unlock) {
+		if (chr_weapon >= global.wp_number) {
 			chr_weapon = 0;
 		}
 		else {
@@ -13,7 +13,7 @@ if (chr_isAtkD == false) {
 	}
 	if (argument1) {
 		if (chr_weapon <= 0) {
-			chr_weapon = chr_unlock;
+			chr_weapon = global.wp_number;
 		}
 		else {
 			chr_weapon--;

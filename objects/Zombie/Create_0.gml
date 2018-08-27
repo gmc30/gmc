@@ -3,7 +3,7 @@
 // Inherit the parent event
 event_inherited();
 
-angle = 0;
+angle = random(360);
 
 isFind = false;
 path=path_add();

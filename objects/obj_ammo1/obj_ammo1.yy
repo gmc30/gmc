@@ -2,7 +2,7 @@
     "id": "acb9f848-942a-4d1c-9243-51698bb98820",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_ammo",
+    "name": "obj_ammo1",
     "eventList": [
         
     ],

@@ -17,12 +17,8 @@ chr_isAtkD = false;
 chr_hpMax = 20;
 chr_hp = chr_hpMax;
 chr_isHurtD = false;
-chr_isDie = false;
 
 //	Weapon
-chr_unlock = 6;
-chr_money = 0;
-
 wp_ammo[0] = global.wp_ammoM[0];
 wp_ammo[1] = global.wp_ammoM[1];
 wp_ammo[2] = global.wp_ammoM[2];
