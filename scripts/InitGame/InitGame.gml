@@ -19,6 +19,8 @@ window_set_size(global.game_width, global.game_height);
 //미니건
 
 #region Weapon
+global.wp_number = 6;
+
 global.wp_dmg[0] = 2;
 global.wp_dmg[1] = 1;
 global.wp_dmg[2] = 2;
