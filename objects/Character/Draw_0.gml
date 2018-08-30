@@ -1,4 +1,4 @@
-/// @description TEXT
+/// @description Draw Character
 
 //	Draw Self
 draw_sprite_ext(sprite_index, -1, x, y, 1, 1, chr_dirD, c_white, image_alpha);

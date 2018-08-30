@@ -1,2 +1,2 @@
-/// @description TEXT
+/// @description Light
 scr_light();

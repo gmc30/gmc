@@ -40,6 +40,6 @@ if (argument0 && chr_isAtkD == false && collision_line(x, y, x + lengthdir_x(dis
 		}
 	}
 	else {
-		//TODO "TIK TIK" Sound
+		//TODO
 	}
 }

@@ -1,4 +1,4 @@
-/// @description TEXT
+/// @description Damage
 
 scr_enemyHurt(0.1);
 

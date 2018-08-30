@@ -22,6 +22,7 @@ for(var i = 1; i <= argument0; i++) {
 				image_speed = 1;
 				angle_speed = random_range(2,5) * choose(1,-1);
 				break;
+				
 			case eft_item:
 				direction = random(360);
 				image_angle = direction;

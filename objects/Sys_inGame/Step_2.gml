@@ -1,9 +1,9 @@
-/// @description TEXT
+/// @description Camera
 
 var _x,_y;
 
-_x=camera_get_view_x(cam);
-_y=camera_get_view_y(cam);
+_x = camera_get_view_x(cam);
+_y = camera_get_view_y(cam);
 
 if instance_exists(obj_chr1)&&instance_exists(obj_chr2){
 	_x+=(median(0,(obj_chr1.x+obj_chr2.x)/2-640,room_width-1280)-_x)*0.02;

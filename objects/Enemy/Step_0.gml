@@ -1,5 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Die
+
 if (hp <= 0) {
 	//	Die
 	instance_destroy();

@@ -7,17 +7,6 @@ surface_resize(application_surface, global.game_width, global.game_height);
 display_set_gui_size(global.game_width, global.game_height);
 window_set_size(global.game_width, global.game_height);
 
-//	Game System
-//	TODO
-
-//딱총
-//기관단총
-//샷건
-//소총
-//기관총
-//스나이퍼
-//미니건
-
 #region Weapon
 global.wp_number = 6;
 

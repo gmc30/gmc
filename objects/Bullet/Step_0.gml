@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Destroy Point
 
 if (point_distance(sx, sy, x, y) >= range) {
 	image_alpha -= 0.04;
